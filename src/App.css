@@ -1,0 +1,26 @@
+body{
+  background-color: rgb(243, 235, 224);
+  font-size: 44px;
+  display: flex;
+  justify-content: center;
+  padding: 5%;
+}
+.panel {
+  background-color: cadetblue;
+}
+
+button {
+  color: aliceblue;
+  background-color: #152125;
+
+}
+@media only screen and (max-width: 768px) {
+  body {
+    background-color: lightblue;
+  }
+  button {
+      color: aliceblue;
+      background-color: #af8ebd;
+  
+  }
+}
